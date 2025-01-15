@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="448" height="512">
+	<title>bars-svg</title>
+	<defs>
+		<image  width="448" height="384" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcAAAAGAAQMAAAAAsyBcAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAABLElEQVR4nO3asQ3CMAAFUSMKSkbwKIxmRmMURqCkQDHYaWNLuSAslHv9FUkEOOiHEELKK02hOq3tcr7X8LI+fNVwfZdz6Y4kvLFLnC/yTMIHuzfz3UkknOBNrbeVhgcWXtljLA8SPcbyINFjLA8Sh5GFTx5eWPgaECYWTgNC1n0+HoaGhl8PE+tGfHXAcMQXcmThhl+r3/8i48MDPq7gA9Lvz3L82BlJ+NxytMaHefz6gF9Y+CsSfinDr4GSJEmSJEmSJIj+Mes+Z1m5SPc57dB9TieMLHSf0+E+x9Bw32FinfucbhhZ6D6nw31Om/ucNvc5kiRJkiRJkvRn6B+z7nOWlYt0n9MO3ed0wshC9zkd7nMMDfcdJta5z+mGkYXuczrc57S5z2kbss95A5E8q2OixmO/AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="64"/>
+</svg>

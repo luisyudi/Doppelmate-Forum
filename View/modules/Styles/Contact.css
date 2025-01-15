@@ -1,0 +1,57 @@
+#content{
+    min-height: 500px;
+    height: 500px;
+}
+
+#content div{
+    height: 300px;
+    width: 620px;
+    margin: 150px auto 0 auto;
+}
+
+
+#content div p{
+    color: white;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#content div p a{
+    color: white;
+    font-size: 15px;
+}
+
+#content div p a:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width:1200px)  {
+    #content{
+        width: 100vw;
+    }
+    
+    #content div{
+        height: 300px;
+        width: 620px;
+        margin: 150px auto 0 auto;
+    }
+    
+    #content div p{
+        line-height: 30px;
+        font-size: 12px;
+    }
+    
+    #content div p a{
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width:620px)  {
+    #content div{
+        height: 300px;
+        width: 95vw;
+    }
+    
+}

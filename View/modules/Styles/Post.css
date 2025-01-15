@@ -1,0 +1,563 @@
+p, h1, a {
+    color: white;
+}
+
+#content{
+    background-color: #0f0f0f;
+}
+
+.postHead{
+    box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+    width: 1000px;
+    min-height: 100px;
+    background-color: #1a1a1b;
+    margin-top: 30px;
+    border: solid black 1px;
+    border-bottom: none;
+}
+
+.postTitle{
+    word-wrap: break-word;
+    padding: 20px 0 4px 20px;
+    font-size: 21px;
+}
+
+.postTagsContent{
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1a1b;  
+    min-height: 20px;
+    width: 900px;
+    margin: 0 0 0 1px;
+}
+
+
+#post0{
+    margin:0 auto;
+}
+
+.post{
+    margin-top: 20px;
+    width: 1002px;
+}
+
+.postDate{
+    width: 1000px;
+    height: 30px;
+    margin: 0 auto;
+    border: solid black 1px;
+    border-bottom: 0;
+    background-color: #1a1a1b;
+    box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+}
+
+.postDate p{
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.postContent{
+    width:1000px;
+    min-height: 100px;
+    border: solid black 1px;
+    box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+    display: flex;
+    background-color: #1a1a1b;
+    margin: 0;
+}
+
+
+.postBody{
+    margin: 0;
+    padding: 20px;
+    padding-left: 24px;
+    margin-bottom: 60px;
+    text-align: justify;
+    word-wrap: break-word;
+    width: 770px;
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #ebebeb;
+}
+
+.postProfileBox{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.postProfileText{
+    font-weight: normal;
+    text-align: center;
+    width: 120px;
+    min-height: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
+.postProfileImage{
+    margin-top: 5px;
+    height: 100px;
+}
+
+.postRightSide{
+    min-width: 230px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    border-left: solid black 1px;
+}
+
+.postBar{
+    margin: 0;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 820px;
+    height: 45px;
+    border-top: solid black 1px;
+    box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+}
+
+.postLikeBox{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.postTag{
+    height: 30px;
+    width: fit-content;
+    line-height: 30px;
+    float: left;
+    margin: 5px 0 5px 5px;
+    font-size: 12px;
+}
+
+.postTagText{
+    color: #8a8686;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.postTagText:hover{
+    text-decoration: underline;
+}
+
+.tagIcon{
+    display: block;
+    height: 12px;
+    width: 12px;
+    margin: 13.7px 2px 0 20px;
+}
+
+.postSettings, .postReply{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-200%, -50%);
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.postReply{
+    transform:translate(-45%, -50%);
+}
+
+
+.likeImg{
+    height: 20px;
+    width: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.likeCount{
+    text-align: center;
+    margin-top: 2px;
+}
+
+.postReplyBox{
+    margin: 0 auto;
+    width:1000px;
+    min-height: 10px;
+    background-color: #1a1a1b;
+    padding-bottom: 58px;
+    position: relative;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+    
+}
+
+.postReplyBoxText{
+    padding: 10px 0 10px 7px;
+}
+
+textarea{
+    resize: vertical;
+    background-color: #565659;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 980px;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.btnConfirmReply{
+    background-color: #565659;
+    border: #ababab solid 1px;
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+    margin: 10px 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    transform: translateX(-30%);
+}
+
+.btnConfirmReply p{
+    padding: 0;
+    line-height: 35px;
+    text-align: center;
+ }
+
+.replyBox{
+    margin: 20px auto;
+    background-color: #565659;
+    width: 780px;
+    border: solid white 1px;
+}
+
+ .repliedText{
+    padding: 10px;
+    font-size: 12px;
+ }
+
+
+ #report{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    background-color: black;
+    opacity: 60%;
+ }
+
+ #reportBox{
+    width: 500px;
+    height: 400px;
+    background-color: purple;
+ }
+
+ #loader{
+    height: 1px;
+    width: 1px;
+    z-index: -3;
+    visibility: hidden;
+ }
+
+ #load{
+    height: 1px;
+    width: 1px;
+ }
+
+
+ @media (max-width:1200px)  {
+    .postHead{
+        width: 99vw;
+        margin-top: 30px;
+    }
+    
+    .postTitle{
+        padding: 20px 0 4px 20px;
+        font-size: 14px;
+    }
+    
+    .postTagsContent{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 20px;
+        width: 98vw;
+    }
+    
+    .post{
+        margin-top: 20px;
+        width: 99vw;
+    }
+    
+    .postDate{
+        width: 99vw;
+        height: 30px;
+    }
+    
+    .postDate p{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    
+    .postContent{
+        width: 99vw;
+        min-height: 100px;
+    }
+    
+    .postBody{
+        margin: 0;
+        padding: 20px;
+        padding-left: 24px;
+        margin-bottom: 60px;
+        width: auto;
+        font-size: 12px;
+    }
+    
+    .postProfileBox{
+        width: 60px;
+        min-height: 60px;
+        padding: 5px;
+        margin: 0;
+    }
+    
+    .postProfileText{
+        font-weight: normal;
+        text-align: center;
+        width: 40px;
+        min-height: 1px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.4px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .postProfileImage{
+        margin-top: 5px;
+        height: 50px;
+    }
+    
+    .postRightSide{
+        width: 10px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        margin: 0;
+    }
+    
+    .postBar{
+        margin: 0;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        width: 10px;
+        height: 45px;
+        border-top: solid black 1px;
+        box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+    }
+    
+    .postLikeBox{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+    }
+    
+    .postTag{
+        height: 30px;
+        width: fit-content;
+        line-height: 30px;
+        float: left;
+        margin: 5px 0 5px 5px;
+        font-size: 12px;
+    }
+    
+    .postTagText{
+        color: #8a8686;
+        font-weight: bold;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    
+    .postTagText:hover{
+        text-decoration: underline;
+    }
+    
+    .tagIcon{
+        display: block;
+        height: 12px;
+        width: 12px;
+        margin: 13.7px 2px 0 20px;
+    }
+    
+    .postSettings, .postReply{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-200%, -50%);
+        font-size: 11px;
+        cursor: pointer;
+    }
+    
+    .postReply{
+        transform: translate(-45%, -50%);
+        margin: 0 0 0 10px;
+    }
+    
+    
+    .likeImg{
+        height: 20px;
+        width: 20px;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .likeCount{
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    .postReplyBox{
+        margin: 0 auto;
+        width:99vw;
+        min-height: 10px;
+        background-color: #1a1a1b;
+        padding-bottom: 58px;
+        position: relative;
+        margin-bottom: 10px;
+        border: solid black 1px;
+        box-shadow: inset 0 1px 2px rgb(255 255 255 / 20%);
+        
+    }
+    
+    .postReplyBoxText{
+        padding: 10px 0 10px 7px;
+        font-size: 12px;
+    }
+    
+    textarea{
+        resize: vertical;
+        background-color: #565659;
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        width: 95vw;
+        font-size: 13px;
+        margin-left: 7px;
+    }
+    
+    textarea:focus{
+        outline: none;
+    }
+    
+    .btnConfirmReply{
+        background-color: #565659;
+        border: #ababab solid 1px;
+        border-radius: 20px;
+        width: 70px;
+        height: 35px;
+        margin: 10px 0;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        transform: translateX(-30%);
+    }
+    
+    .btnConfirmReply p{
+        padding: 0;
+        line-height: 35px;
+        text-align: center;
+     }
+    
+    .replyBox{
+        margin: 20px 0 0 20px;
+        background-color: #565659;
+        width: 10px;
+        border: solid white 1px;
+    }
+    
+     .repliedText{
+        padding: 10px;
+        font-size: 12px;
+     }
+    
+    
+     #report{
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        z-index: 3;
+        background-color: black;
+        opacity: 60%;
+     }
+    
+     #reportBox{
+        width: 500px;
+        height: 400px;
+        background-color: purple;
+     }
+    
+    #footer{
+        border-top: solid 20px black;
+    }
+}
+
+
+#messageBox{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#messageBoxContent{
+    position: fixed;
+    z-index: 3;
+    width: 400px;
+    height: 270px;
+    background-color: #1a1a1b;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    border: solid 1px black;
+    
+}
+
+#messageBoxText{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#txtReport{
+    width: 360px;
+    height: 130px;
+    margin: 20px 0 0 20px;
+}

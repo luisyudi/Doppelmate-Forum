@@ -1,0 +1,270 @@
+.settingBox{
+    width:850px;
+    min-height: 100px;
+    border: solid #f5f5f5 2px;
+    border-radius: 20px;
+    margin-top: 70px;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#changeImage{
+    margin-top: 100px;
+}
+
+#profileImg{
+    height: 150px;
+    margin: 20px 0 20px 25px;
+}
+
+.settingsLabel{
+    position: absolute;
+    align-self: flex-start;
+    transform: translateY(-50%);
+    margin-left: 25px;
+    border-left: solid #1e1a20 5px;
+    border-right: solid #1e1a20 5px;
+    background-color: #1e1a20;
+    color: #f5f5f5;
+    font-size: 18px;
+}
+
+.labelInput, .confirmButton, textarea, input, form{
+    margin: 0;
+}
+
+input, .label, p{
+    color: #f5f5f5;
+}
+
+#txtChangeUsername, #txtChangePassword, #txtChangePasswordConfirm{
+    background-color: #1e1a20;
+    border: none;
+    border-bottom: white solid 2px;
+    color:white;
+    width: 160px;
+    height: 18px;
+    font-size: 14px;
+}
+
+input:focus{
+    outline: none;
+    border: white solid 1px;
+}
+
+textarea{
+    margin: 20px 0;
+    resize:vertical;
+    background-color: #565659;
+    color: white;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.labelInput, textarea, form{
+    margin-left: 28px;
+}
+
+.confirmButton{
+    background-color: #1b1c1e;
+    border: solid #fefefe 1px;
+    border-radius: 20px;
+    padding: 0 20px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.confirmButton p {
+    line-height: 30px;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+button.confirmButton{
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+#messageBox{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 200vh;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#messageBoxContent{
+    position: fixed;
+    z-index: 3;
+    width: 400px;
+    height: 200px;
+    background-color: #1a1a1b;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    border: solid 1px black;
+    
+}
+
+#messageBoxText{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 200px;
+}
+
+@media (max-width:1200px)  {
+    .settingBox{
+        width:90%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    input{
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    #changeImage{
+        margin-top: 100px;
+    }
+    
+    #profileImg{
+        height: 100px;
+        margin: 20px 0 30px 25px;
+    }
+    
+    .settingsLabel{
+        position: absolute;
+        align-self: flex-start;
+        transform: translateY(-50%);
+        margin-left: 25px;
+        border-left: solid #1e1a20 5px;
+        border-right: solid #1e1a20 5px;
+        background-color: #1e1a20;
+        color: #f5f5f5;
+        font-size: 18px;
+    }
+    
+    .labelInput, .confirmButton, textarea, input, form{
+        margin: 0;
+    }
+    
+    .label{
+        padding-top: 20px;
+    }
+
+    #txtChangePasswordConfirm{
+        margin-bottom: 20px;
+    }
+    
+    #txtChangeUsername, #txtChangePassword, #txtChangePasswordConfirm{
+        background-color: #1e1a20;
+        border: none;
+        border-bottom: white solid 2px;
+        color:white;
+        width: 160px;
+        height: 18px;
+        font-size: 14px;
+    }
+    
+    input:focus{
+        outline: none;
+        border: white solid 1px;
+    }
+    
+    textarea{
+        margin: 20px 0;
+        resize:vertical;
+        background-color: #565659;
+        color: white;
+    }
+    
+    textarea:focus{
+        outline: none;
+    }
+    
+    .labelInput, textarea, form{
+        margin-left: 28px;
+    }
+    
+    .confirmButton{
+        background-color: #1b1c1e;
+        border: solid #fefefe 1px;
+        border-radius: 20px;
+        padding: 0 20px;
+        height: 30px;
+        position: absolute;
+        right: 0;
+        margin-right: 30px;
+        cursor: pointer;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .confirmButton p {
+        line-height: 30px;
+        color: #fefefe;
+        font-weight: bold;
+    }
+    
+    button.confirmButton{
+        height: 30px;
+        color: white;
+        font-weight: bold;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    
+    
+    #messageBox{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 200vh;
+        z-index: 2;
+        background-color: black;
+        opacity: 0.5;
+    }
+    
+    #messageBoxContent{
+        position: fixed;
+        z-index: 3;
+        width: 400px;
+        height: 200px;
+        background-color: #1a1a1b;
+        top: 35%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        display: none;
+        border: solid 1px black;
+        
+    }
+    
+    #messageBoxText{
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        line-height: 200px;
+    }
+}
